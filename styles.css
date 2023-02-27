@@ -15,47 +15,72 @@
 #hook{
     color: #2b1d05;
     font-size: 1.6rem;
-    width: max-content;
-    margin-left: 30%;
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 6%;
     border-bottom: solid;
     border-bottom-width: 2px;
     border-bottom-color: rgba(243, 172, 6, 0.699);
+}
+
+#hook-details{
+    display: grid;
+    text-align: center;
+    margin-top: -3%;
+    color: #725b34;
 }
 
 .food-category{
     height: 50px;
     width: 50px;
     border-radius: 100px;
-    display: grid;
-    background-color: green;
 }
 
-.categories, .food-description{
+.categories{
     display: grid;
-    row-gap: 30px;
+    row-gap: 51px;
 
 }
 
 .food-description{
-
-    margin-top: -225px;
-    row-gap: 0px;
-    margin-left: 30px;
+    margin-top: -75.5%;
+    text-align: center;
+    line-height: 60px;
+    display: grid;
+    row-gap: 2px;
+    grid-template-rows: repeat(3, 88px);
+    row-gap: 13px;
 }
 
 #breakfast, #lunch, #dinner{
+    border: solid;
+    border-width: 2px;
     border-color:rgba(243, 172, 6, 0.699);
-
-    text-align: center;
-    color:#2b1d05;
-    font-size: 1.3rem;
-    border-style: solid;
-    border-width: 1px;
-    height: 45px;
     z-index: -1;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+    margin-left: 6%;
+    background-color: rgba(255, 212, 112, 0.384);
+    color: #2b1d05;
 }
+
+@media (max-width: 360px){
+    .food-description{
+        margin-top: -270px;
+    }
+}
+
+@media (min-width: 384px) and (max-width: 428px){
+    .food-description{
+        margin-top: -270px;
+    }
+}
+
+@media (max-width: 760px) and (orientation: landscape) {
+    .food-description{
+        margin-top: -270px;
+        margin-left: -20px;
+    }
+
+}
+
+
