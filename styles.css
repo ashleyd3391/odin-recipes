@@ -6,7 +6,6 @@
     height: 10vh;
     justify-content: center;
     width: 95.6%;
-    margin-left: 0;
     margin-top: -28%;
     position: absolute;
     background-color: rgba(247, 192, 66, 0.699);
@@ -63,24 +62,106 @@
     color: #2b1d05;
 }
 
-@media (max-width: 360px){
+@media (min-width: 360px) and (max-width: 500px){
     .food-description{
         margin-top: -270px;
     }
 }
 
-@media (min-width: 384px) and (max-width: 428px){
+@media (min-width: 500px) and (max-width: 761px){
     .food-description{
-        margin-top: -270px;
+    margin-top: -270px;
+    margin-left: -14px;
+    }
+
+    #title{
+        width: 97.5%;
     }
 }
 
-@media (max-width: 760px) and (orientation: landscape) {
+@media (min-width: 762px) and (max-width: 1024px){
+    .food-description{
+        margin-top: -270px;
+        margin-left: -30px;
+    }
+
+    #title{
+        width: 98%;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1200px) and (orientation: landscape) {
     .food-description{
         margin-top: -270px;
         margin-left: -20px;
     }
 
+    #title{
+        width: 98.5%;
+    }
 }
 
+@media (min-width: 1025px) and (orientation: landscape){
+    #title{
+        margin-left: 20.5vw;
+        width: 60%;
+        font-size: 5rem;
+        height: 20vh;
 
+    }
+
+    #hook{
+        font-size: 5rem;
+        border-width: 5px;
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    #background-picture{
+        margin-top: 10vh;
+        width: 60vw;
+        height: 70vh;
+        margin-left: 2%;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    #hook-details{
+        font-size: 3rem;
+        margin-left: 10vw;
+        width: 80%;
+    }
+
+    .categories{
+        margin-left: 20vw;
+        width: 80%;
+    }
+
+    .food-category{
+        height: 200px;
+        width: 200px;
+    }
+
+    .food-description{
+        grid-template-rows: repeat(3, 200px);
+        width: max-content;
+        margin-top: -40%;
+        row-gap: 54px;
+        margin-left: 21vw;
+        width: 55%;
+        font-size: 3rem;
+        margin-bottom: 20vh;
+    }
+
+    #lunch, #breakfast, #dinner{
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
