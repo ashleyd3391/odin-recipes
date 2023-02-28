@@ -103,7 +103,9 @@
 
 @media (min-width: 1025px) and (orientation: landscape){
     #title{
-        margin-left: 20.5vw;
+        position: absolute;
+        margin-left: 20.2vw;
+        margin-top: -50vh;
         width: 60%;
         font-size: 5rem;
         height: 20vh;
@@ -150,9 +152,9 @@
     .food-description{
         grid-template-rows: repeat(3, 200px);
         width: max-content;
-        margin-top: -40%;
+        margin-top: -93vh;
         row-gap: 54px;
-        margin-left: 21vw;
+        margin-left: 27vw;
         width: 55%;
         font-size: 3rem;
         margin-bottom: 20vh;
