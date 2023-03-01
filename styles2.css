@@ -1,0 +1,46 @@
+*{
+    color: #2b1d05;
+}
+
+#title{
+    display: grid;
+    color: #2b1d05;
+    justify-content: center;
+    height: 5rem;
+    line-height: 6rem;
+    border-bottom: solid;
+    border-bottom-color: rgba(247, 192, 66, 0.699);
+}
+
+.menu{
+    display: grid;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1rem;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
+    column-gap: 0.5rem;
+}
+
+.food-image{
+    height: 100px;
+    width: 100px;
+}
+
+.subtitles{
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: repeat(3, 100px);
+    height: 6.5rem;
+    line-height: 1rem;
+    justify-content: center;
+    column-gap: 0.5rem;
+    margin-top: -27rem;
+}
+
+.subtitle{
+    font-size: 1rem;
+    height: max-content;
+    background-color: rgba(247, 193, 66, 0.788);
+    padding: 0.1rem;
+}
