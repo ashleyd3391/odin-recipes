@@ -226,7 +226,8 @@
 
 }
 
-@media (min-width: 1501px) and (max-width: 2000px){
+@media (min-width: 1501px) and (max-width: 3000px){
+    
     #title{
     margin-left: 20.5vw;
     width: 60%;
@@ -278,7 +279,7 @@
     width: max-content;
     margin-top: -46.9rem;
     row-gap: 50px;
-    margin-left: 426px;
+    margin-left: 378px;
     width: 55%;
     font-size: 3rem;
     margin-bottom: 20vh;
