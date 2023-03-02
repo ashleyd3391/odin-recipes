@@ -10,37 +10,64 @@
     line-height: 6rem;
     border-bottom: solid;
     border-bottom-color: rgba(247, 192, 66, 0.699);
+    margin-bottom: 3rem;
 }
 
 .menu{
     display: grid;
-    padding: 1rem;
     justify-content: center;
+    padding-right: 9rem;
     margin: 1rem;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(4, 100px);
-    column-gap: 0.5rem;
+    grid-template-columns: repeat(1, 80px);
+    grid-template-rows: repeat(4, 200px);
+    row-gap: 130px;
 }
 
 .food-image{
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 230px;
 }
 
 .subtitles{
     display: grid;
-    margin: 1rem;
-    grid-template-columns: repeat(3, 100px);
-    height: 6.5rem;
-    line-height: 1rem;
     justify-content: center;
-    column-gap: 0.5rem;
-    margin-top: -27rem;
+    margin: 1rem;
+    padding-right: 1.5rem;
+    padding-top: 13rem;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: repeat(4, 307px);
+    justify-content: center;
+    margin-top: -77.05rem;
+    row-gap: 23px;
 }
 
 .subtitle{
-    font-size: 1rem;
-    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width: 14.2rem;
     background-color: rgba(247, 193, 66, 0.788);
     padding: 0.1rem;
 }
+
+.back, .back2{
+    display: grid;
+    margin-top: -13rem;
+    justify-content: center;
+}
+
+.back2{
+    margin-top: -33rem;
+}
+
+#backBtn{
+    background-color: rgba(247, 193, 66, 0.788);
+    border-radius: 10px;
+    border-color: rgba(255, 196, 57, 0.699);
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+}
+
