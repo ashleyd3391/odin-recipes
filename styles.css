@@ -38,7 +38,6 @@
 .categories{
     display: grid;
     row-gap: 51px;
-
 }
 
 
@@ -65,9 +64,14 @@
     color: #2b1d05;
 }
 
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
 @media (min-width: 360px) and (max-width: 500px){
     .food-description{
-        margin-top: -270px;
+        margin-top: -271px;
+        row-gap: 0.8rem;
     }
 }
 
