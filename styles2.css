@@ -26,19 +26,22 @@
 .food-image{
     height: 250px;
     width: 230px;
-}
+    border-style: solid;
+    border-color:rgba(235, 166, 7, 0.884);
+ }
 
 .subtitles{
     display: grid;
     justify-content: center;
     margin: 1rem;
-    padding-right: 1.5rem;
-    padding-top: 13rem;
+    padding-top: 14.5rem;
+    padding-right: 1.1rem;
     grid-template-columns: repeat(1, 200px);
-    grid-template-rows: repeat(4, 307px);
+    grid-template-rows: repeat(3, 250px);
     justify-content: center;
     margin-top: -81.6rem;
-    row-gap: 23px;
+    row-gap: 5rem;
+    
 }
 
 .subtitle{
@@ -46,31 +49,31 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 2rem;
-    height: 6rem;
-    width: 14.2rem;
+    font-size: 1.6rem;
+    height: 2.5em;
+    font-weight: 500;
+    width: 13.4rem;
     background-color: rgba(247, 193, 66, 0.884);
-    padding: 0.1rem;
+    padding: 0.5rem;
 }
 
 .back, .back2{
     display: grid;
-    margin-top: -13rem;
     justify-content: center;
+    padding-left: 0.9rem;
 }
 
 .back2{
-    margin-top: -28rem;
+    margin-top: -5rem;
 }
 
 #backBtn{
     color: #2b1d05;
     text-align: center;
-    border-width: 5px;
-    background-color: rgba(248, 218, 149, 0.788);
+    color: white;
+    background-color: #c08218;
     border-radius: 10px;
-    border-color: rgba(255, 196, 57, 0.699);
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 10rem;
     height: 3rem;
 }
