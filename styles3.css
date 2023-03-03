@@ -1,0 +1,52 @@
+*{
+    color: #2b1d05;
+}
+
+.titleDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    display: grid;
+    color: #2b1d05;
+    justify-content: center;
+    height: 5rem;
+    font-size: 1.9rem;
+    line-height: 6rem;
+    border-bottom: solid;
+    border-bottom-color: rgba(247, 192, 66, 0.699);
+    margin-bottom: 3rem;
+    width: max-content;
+}
+
+.recipe-subtitles{
+    display: flex;
+    width: min-content;
+    border-bottom: solid;
+    border-bottom-color: rgba(247, 192, 66, 0.699);
+}
+
+.ingrediants-list, .directions-list{
+    display: grid;
+    grid-template-columns: 100%;
+    font-size: 1.5rem;
+    grid-template-rows: repeat(8, 70px);
+    text-align: left;
+    width: fit-content;
+    margin: 1.5rem;
+    
+}
+
+.ingrediant{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin: 1rem;
+}
+
+
