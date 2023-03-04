@@ -35,7 +35,17 @@
     text-align: left;
     width: fit-content;
     margin: 1.5rem;
-    
+    row-gap: 2rem;    
+}
+
+.ingrediants-list{
+    margin-bottom: 7rem;
+    text-indent: -3rem;
+    padding-left: 3rem;
+}
+
+.directions-list{
+    margin-bottom: -5rem;
 }
 
 .ingrediant{
@@ -47,6 +57,32 @@
 input[type=checkbox] {
     transform: scale(2);
     margin: 1rem;
+    accent-color: rgba(238, 179, 41, 0.699);
 }
 
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
 
+li{
+    margin: 1rem;
+}
+
+.buttonDiv{
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+button{
+    width: 4rem;
+    font-size: 3rem;
+    border-radius: 100px;
+    background-color: rgba(247, 192, 66, 0.699);
+    border-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
