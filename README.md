@@ -12,5 +12,5 @@ This project will display my understanding of several HTML elements. This includ
 </ul>
 
 <h3>Project Design Before Update:</h3>
-<a href="IMG_8458.PNG"></a>
+<img>IMG_8458.PNG"></img>
 
