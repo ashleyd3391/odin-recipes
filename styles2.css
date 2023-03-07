@@ -19,7 +19,7 @@
     padding-right: 9rem;
     margin: 1rem;
     grid-template-columns: repeat(1, 80px);
-    grid-template-rows: repeat(4, 200px);
+    grid-template-rows: repeat(5, 200px);
     row-gap: 130px;
 }
 
@@ -34,14 +34,13 @@
     display: grid;
     justify-content: center;
     margin: 1rem;
-    padding-top: 14.5rem;
+    padding-top: 9rem;
     padding-right: 1.1rem;
     grid-template-columns: repeat(1, 200px);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(5, 250px);
     justify-content: center;
-    margin-top: -81.6rem;
+    margin-top: -97rem;
     row-gap: 5rem;
-    
 }
 
 .subtitle{
