@@ -11,3 +11,6 @@ This project will display my understanding of several HTML elements. This includ
     <li>How to manipulate input types, such as checkboxes, with CSS</li>
 </ul>
 
+<h3>Project Design Before Update:</h3>
+<a href="IMG_8458.PNG"></a>
+
