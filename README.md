@@ -4,6 +4,8 @@ This project will display my understanding of several HTML elements. This includ
 <h1>02/26/2023 Update:</h1>
 <strong>I decided to redo this project completely by adding my more recent understanding of responsive web design and CSS.</strong>
 
+<a href="https://ashleyd3391.github.io/odin-recipes/">Live Demo</a>
+
 <h3>What I learned:</h3>
 
 <ul>
